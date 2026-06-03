@@ -116,3 +116,62 @@ nav ul li a{
 .secondary-bg{
     background-color:#FFF8F3;
 }
+.section-description{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+.text-center{
+    text-align: center;
+}
+
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* section styles */
+.section-title{
+    margin-bottom: 30px;
+}
+.section-description{
+    margin: 30px 0;
+}
+
+/* about section */
+.about{
+    border: none;
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin-top: 130px;
+    text-align: center;
+    gap: 30px;
+}
+.about-box{
+    border: 2px solid black;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.description{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.item-title{
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+}
+.item-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+
