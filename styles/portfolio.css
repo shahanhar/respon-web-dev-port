@@ -107,7 +107,6 @@ nav ul li a{
     font-size: 20px;
     font-weight: 700;
     border-radius: 5px;
-    margin-top: -15px;
     padding: 10px 20px;
     background-color: #FD6E0A;
     color: white;
@@ -169,7 +168,6 @@ main{
 
 /* skills styles */
 .skills-section{
-    /* margin: 130px 116px 50px 115px; */
     margin-top: 130px;
     margin-bottom: 130px;
 }
@@ -181,8 +179,6 @@ main{
     gap: 24px;
 }
 .skill{
-    /* width: 267px;
-    height: 377px; */
     border: none;
     border-radius: 5px;
     background-color: #FFFFFF;
@@ -198,4 +194,63 @@ main{
     font-weight: 400;
     font-size: 16px;
     color: #757575;
+}
+
+/* resume styles */
+.resume-summary{
+    margin-top: 130px;
+    margin-bottom: 113px;
+}
+.resume-container{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.resume-title{
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px
+}
+.education-title{
+    font-weight: bold;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: -20px;
+}
+.education-title2{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+}
+.education-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+.button{
+    margin: 50px 562px 137px 470px;
+}
+.resume button i{
+    margin-right: 10px;
+}
+
+/* footer styles */
+footer{
+    display: flex;
+    padding: 130px 230px;
+    margin-right: 38px;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    width: 461px;
+    height: 64px;
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 349px 18px 30px;
+    border: none;
+    border-radius: 5px;
 }
